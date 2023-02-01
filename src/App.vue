@@ -1,6 +1,4 @@
 <script>
-import {store} from "./store.js";
-
 import headerApp from "./components/headerApp.vue";
 import mainApp from "./components/mainApp.vue";
 
@@ -9,14 +7,6 @@ export default{
     headerApp,
     mainApp
     },
-
-    data (){
-      return{
-        store,
-      };
-
-  },
-
 };
 </script>
 
