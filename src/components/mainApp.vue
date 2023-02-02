@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-  <listProjectApp />
-  <!-- <router-view></router-view> -->
+  <!-- <listProjectApp /> -->
+  <router-view></router-view>
 </template>
 
 <style>
