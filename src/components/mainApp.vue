@@ -1,5 +1,6 @@
 <script>
 import listProjectApp from "./listProjectApp.vue";
+import singleProjectApp from "../pages/singleProjectApp.vue";
 
 export default {
   name: "mainApp",
