@@ -13,6 +13,7 @@ export default {
 
 <template>
   <listProjectApp />
+  <!-- <router-view></router-view> -->
 </template>
 
 <style>
