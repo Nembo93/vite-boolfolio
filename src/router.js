@@ -1,7 +1,7 @@
 
 import { createRouter, createWebHistory } from "vue-router";
 import listProjectApp from "./components/listProjectApp.vue";
-import singeProjectApp from "./pages/singleProjectApp.vue";
+import singleProjectApp from "./pages/singleProjectApp.vue";
 
 const router = createRouter({
 
@@ -9,12 +9,12 @@ const router = createRouter({
     routes: [
         {
             path: "/",
-            name: "listProjectApp",
+            name: "list-project",
             component: listProjectApp,
           },
           {
             path: "/:slug",
-            name: "singleProjectApp",
+            name: "single-project",
             component: singleProjectApp,
           },
     ]
