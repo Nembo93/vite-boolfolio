@@ -10,7 +10,7 @@ export default {
 
     created(){
         axios
-        .get(`http://127.0.0.1:8000/api/projects/${this.$route.params.slug}`)
+        .get(`http://127.0.0.1:8000/api/project/${this.$route.params.slug}`)
         .then ((response) =>{
             this.project = response.data;
         })
@@ -23,7 +23,7 @@ export default {
   <div v-if="project">
     <!-- <img :src="project.image_url" :alt="project.title" /> -->
     <h1>{{ project.title }}</h1>
-    <p>{{ project.content }}</p>
+    <p>{{ project.description }}</p>
   </div>
 </template>
 
